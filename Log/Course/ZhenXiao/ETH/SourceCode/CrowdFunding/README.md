@@ -9,6 +9,6 @@
 https://goerli.etherscan.io/address/0x8c0A0EB5b7928F87d2CA38bf5c4d16019f1bf563#code
 ```
 
-`(Bug1)`: The transfer unit is only support 'WEI', if someone uses other units of calculation for ETH to make a transfer, the amount of ETH will not record in contract, but it has transfered to contract.
-
-`(Bug2)`: When transferring funds to a crowdfunding project that has already been completed, no consideration is given to who is entitled to the funding rights of the contract.
+* Bug list
+`Bug1`: The transfer unit is only support 'WEI', if someone uses other units of calculation for ETH to make a transfer, the amount of ETH will not record in contract, but it has transfered to contract.
+`Bug2`: When transferring funds to a crowdfunding project that has already been completed, no consideration is given to who is entitled to the funding rights of the contract.
